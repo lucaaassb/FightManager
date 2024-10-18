@@ -1,8 +1,8 @@
 namespace FightManager.Core.Entities;
 
-public class BaseEntity
+public abstract class BaseEntity
 {
-    public BaseEntity(DateTime createdAt, bool isDeleted)
+    protected BaseEntity()
     {
         CreatedAt = DateTime.Now;
         IsDeleted = false;
