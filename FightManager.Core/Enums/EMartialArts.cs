@@ -1,6 +1,6 @@
 namespace FightManager.Core.Enums;
 
-public enum MartialArtsEnum
+public enum EMartialArts
 {
     JiuJitsu,
     Karate,

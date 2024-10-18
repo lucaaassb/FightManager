@@ -4,7 +4,7 @@ namespace FightManager.Core.Entities;
 
 public class Student : User
 {
-    public Student(Guid userId, string fullName, string email, string passwordHash, UserRoleEnum role, DateTime createdAt, bool active, string categories, bool paidMonthlyFee, DateTime monthlyPaymentDue) : base(userId, fullName, email, passwordHash, role, createdAt, active)
+    public Student(Guid userId, string fullName, string email, string passwordHash, EUserRole role, DateTime createdAt, bool active, string categories, bool paidMonthlyFee, DateTime monthlyPaymentDue) : base(fullName, email, passwordHash, role, createdAt, active)
     {
         Categories = categories;
         PaidMonthlyFee = paidMonthlyFee;

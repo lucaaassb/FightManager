@@ -2,9 +2,9 @@ namespace FightManager.Core.Entities;
 
 public class Frequency
 {
-    public Frequency(Guid frequencyId, Guid classroomId, Guid studentId, bool presence, DateTime registerDate)
+    public Frequency(Guid classroomId, Guid studentId, bool presence, DateTime registerDate)
     {
-        FrequencyId = frequencyId;
+        FrequencyId = Guid.NewGuid();
         ClassroomId = classroomId;
         StudentId = studentId;
         Presence = presence;

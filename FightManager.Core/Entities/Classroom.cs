@@ -2,9 +2,9 @@ namespace FightManager.Core.Entities;
 
 public class Classroom
 {
-    public Classroom(Guid classroomId, string categories, DateTime dateHour, Guid instructorId, bool classroomFinished)
+    public Classroom(string categories, DateTime dateHour, Guid instructorId, bool classroomFinished)
     {
-        ClassroomId = classroomId;
+        ClassroomId = Guid.NewGuid();
         Categories = categories;
         DateHour = dateHour;
         InstructorId = instructorId;

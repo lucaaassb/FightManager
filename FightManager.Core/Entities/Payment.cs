@@ -2,9 +2,9 @@ namespace FightManager.Core.Entities;
 
 public class Payment
 {
-    public Payment(Guid paymentId, Guid studentId, decimal value, DateTime paymentDate, DateTime expirationMonthlyfee, bool paid)
+    public Payment(Guid studentId, decimal value, DateTime paymentDate, DateTime expirationMonthlyfee, bool paid)
     {
-        PaymentId = paymentId;
+        PaymentId = Guid.NewGuid();
         StudentId = studentId;
         Value = value;
         PaymentDate = paymentDate;

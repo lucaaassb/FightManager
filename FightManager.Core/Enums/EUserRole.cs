@@ -1,6 +1,6 @@
 namespace FightManager.Core.Enums;
 
-public enum UserRoleEnum
+public enum EUserRole
 {
     Student,
     Instructor,
