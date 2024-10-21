@@ -7,8 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
       <Folder Include="Services\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FightManager.Core\FightManager.Core.csproj" />
+      <ProjectReference Include="..\FightManager.Infrastructure\FightManager.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
