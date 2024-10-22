@@ -1,6 +1,6 @@
 namespace FightManager.API.Controllers;
 
-public class ClassroomsController
+public class StudentsController
 {
     
 }

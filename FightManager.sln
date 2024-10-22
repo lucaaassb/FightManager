@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightManager.API", "FightManager.API\FightManager.API.csproj", "{E5227E2F-3AD7-4DB4-AE50-301ECDFF9B76}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightManager.Core", "FightManager.Core\FightManager.Core.csproj", "{2D69EAFF-F21C-49E9-B823-891EDAF19FFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightManager.Application", "FightManager.Application\FightManager.Application.csproj", "{1C82BFA4-0203-40D1-A998-040CA4CEB6D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightManager.Infrastructure", "FightManager.Infrastructure\FightManager.Infrastructure.csproj", "{F30ABF7F-136A-4C39-8A44-93585598EA62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FightManager.API", "FightManager.API\FightManager.API.csproj", "{49E93A82-81FF-41E9-BF54-5DED9DB243D1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,10 +14,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E5227E2F-3AD7-4DB4-AE50-301ECDFF9B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E5227E2F-3AD7-4DB4-AE50-301ECDFF9B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E5227E2F-3AD7-4DB4-AE50-301ECDFF9B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E5227E2F-3AD7-4DB4-AE50-301ECDFF9B76}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2D69EAFF-F21C-49E9-B823-891EDAF19FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2D69EAFF-F21C-49E9-B823-891EDAF19FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D69EAFF-F21C-49E9-B823-891EDAF19FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +26,9 @@ Global
 		{F30ABF7F-136A-4C39-8A44-93585598EA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F30ABF7F-136A-4C39-8A44-93585598EA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F30ABF7F-136A-4C39-8A44-93585598EA62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49E93A82-81FF-41E9-BF54-5DED9DB243D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49E93A82-81FF-41E9-BF54-5DED9DB243D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49E93A82-81FF-41E9-BF54-5DED9DB243D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49E93A82-81FF-41E9-BF54-5DED9DB243D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

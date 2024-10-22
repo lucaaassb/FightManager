@@ -1,10 +1,10 @@
+using Microsoft.AspNetCore.Mvc;
 using FightManager.Application.Models;
 using FightManager.Core.Entities;
 using FightManager.Infrastructure.Persistence;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace FightManager.API.Controllers
+namespace FightManager.API.Controllers;
 {
     [Route("api/users")]
     [ApiController]
@@ -16,22 +16,29 @@ namespace FightManager.API.Controllers
         {
             _context = context;
         }
-
-        // [HttpGet("{id")]
-        // public IActionResult GetById(int id)
-        // {
-        //     var user = _context.Users
-        //         
-        // }
         
-        [HttpPut("{id}/profile-picture")]
-        public IActionResult PostProfilePicture(int id, IFormFile file)
+        // POST api/users
+        [HttpPost("student")]
+        public IActionResult Post(CreateUserInputModel model)
         {
-            var description = $"File: {file.FileName}, Size: {file.Length}";
+            var user = new User(model.Fullname, model.Email, model.Role, model.CreatedAt);
+            
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            
+            return NoContent();
+        }
 
-            //Processar a imagem
-
-            return Ok(description);
-        
+        [HttpPost("instructor")]
+        public IActionResult Post(CreateUserInputModel model)
+        {
+            var user = new User(model.Fullname, model.Email, model.Role, model.CreatedAt);
+            
+            _context.Users.Add(user);
+            _context.SaveChanges();
+            
+            return NoContent();
+        }
     }
 }
+

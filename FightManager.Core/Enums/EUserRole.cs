@@ -4,4 +4,5 @@ public enum EUserRole
 {
     Student,
     Instructor,
+    Admin
 }

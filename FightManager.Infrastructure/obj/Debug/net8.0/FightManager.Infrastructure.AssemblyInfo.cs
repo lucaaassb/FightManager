@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FightManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0010d15afdc06c38cb2a63350c88670d557fd23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb60b446021f29261a618703dd33349ab0406621")]
 [assembly: System.Reflection.AssemblyProductAttribute("FightManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FightManager.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

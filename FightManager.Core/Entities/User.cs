@@ -2,7 +2,7 @@ using FightManager.Core.Enums;
 
 namespace FightManager.Core.Entities;
 
-public class User : BaseEntity
+public abstract class User : BaseEntity
 {
     public User(string fullName, string email, string passwordHash, EUserRole role, DateTime createdAt, bool active)
     {
