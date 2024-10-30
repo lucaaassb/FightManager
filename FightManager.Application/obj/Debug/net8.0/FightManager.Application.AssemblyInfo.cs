@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FightManager.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fb60b446021f29261a618703dd33349ab0406621")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c25f91d02733f15d211d6d5bb765c88bf31f35a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FightManager.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FightManager.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
